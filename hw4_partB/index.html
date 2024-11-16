@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophie Nguyen - Exercise 2 - Matching Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="page-1">
+      <a href="../hw4_partA/index.html" rel="noopener noreferrer"
+        >Go To Exercise 1</a
+      >
+    </div>
+    <main id="main">
+      <h3 class="main__header">Matching Game!</h3>
+      <p class="main__header-caption">
+        You have 120 second to match as many image as you can! Please select a
+        level and Click NEW GAME to begin!
+      </p>
+      <table id="main-table">
+        <tr>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="main-table__panel" draggable="false">
+              <img
+                class="panel-cover"
+                src="./img/00.png"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="btn-level">
+        <button class="levels level1">Lvl 1</button>
+        <button class="levels level2">Lvl 2</button>
+        <button class="levels level3">Lvl 3</button>
+        <button class="levels new-game">New Game</button>
+        <button class="levels reset-game">Reset</button>
+      </div>
+    </main>
+    <div class="pop-up hidden">
+      <h1 class="pop-up__header">Win! Click Pokeball to Play Again</h1>
+      <button class="pop-up__btnBegin">
+        <img class="pop-up__img" src="./img/pokeball.png" alt="pokeball" />
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
