@@ -43,7 +43,7 @@ let totalpanel = 0;
 const updateTime = () => {
   trackTime += 1;
   if (trackTime >= gameDuration) {
-    popUpheader.textContent = "Lost! Click Pokeball to Play Again";
+    popUpheader.textContent = "Lost! Click on Cat to Play Again";
     popUp.classList.remove("hidden");
     return;
   }
